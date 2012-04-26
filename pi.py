@@ -20,5 +20,6 @@ while 1:
 		if d == d[::-1]:
 			if isprime(int(d)):
 				print d
+				break # remove this break to see more solutions
 	else:
 		break
